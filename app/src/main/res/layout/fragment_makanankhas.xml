@@ -12,11 +12,20 @@
         android:orientation="vertical"
         android:layout_marginHorizontal="20dp">
 
-        <!-- Informasi Makanan Khas Jakarta 1 - Nasi Goreng -->
+        <!-- Informasi Makanan Favorit Jakarta 1 - Nasi Goreng -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B5CAE3"
+            app:cardCornerRadius="20dp"
+            android:layout_marginVertical="10dp">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp">
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp">
 
             <!-- Gambar Makanan -->
             <ImageView
@@ -51,11 +60,20 @@
                 android:text="Nasi goreng adalah salah satu makanan khas Jakarta yang terkenal dan lezat." />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <!-- Informasi Makanan Khas Jakarta 2 - Soto Betawi -->
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B5CAE3"
+            app:cardCornerRadius="20dp"
+            android:layout_marginVertical="10dp">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="20dp">>
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp">
 
             <!-- Gambar Makanan -->
             <ImageView
@@ -90,11 +108,20 @@
                 android:text="Soto Betawi adalah makanan khas Jakarta berupa sup daging sapi yang gurih dan kaya rempah." />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <!-- Informasi Makanan Khas Jakarta 3 - Kerak Telor -->
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B5CAE3"
+            app:cardCornerRadius="20dp"
+            android:layout_marginVertical="10dp">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="20dp">>
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp">
 
             <!-- Gambar Makanan -->
             <ImageView
@@ -129,11 +156,20 @@
                 android:text="Kerak Telor adalah makanan khas Jakarta yang terbuat dari telur, beras ketan, dan rempah-rempah." />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <!-- Lanjutan Informasi Makanan Khas Jakarta 4 - Ketoprak -->
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B5CAE3"
+            app:cardCornerRadius="20dp"
+            android:layout_marginVertical="10dp">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="20dp">>
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp">
 
             <!-- Gambar Makanan -->
             <ImageView
@@ -168,11 +204,20 @@
                 android:text="Ketoprak adalah makanan khas Jakarta yang terdiri dari lontong, tahu, bihun, sayur, dan kuah kacang kental." />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <!-- Informasi Makanan Khas Jakarta 5 - Gado-Gado -->
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B5CAE3"
+            app:cardCornerRadius="20dp"
+            android:layout_marginVertical="10dp">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="20dp">>
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp">
 
             <!-- Gambar Makanan -->
             <ImageView
@@ -206,7 +251,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:text="Gado-Gado adalah makanan khas Jakarta yang terdiri dari sayuran rebus, tahu, tempe, telur, dan disajikan dengan bumbu kacang." />
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
+        </androidx.cardview.widget.CardView>
     </LinearLayout>
 </ScrollView>

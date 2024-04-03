@@ -2,7 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="160dp"
+    android:layout_height="230dp"
     android:background="#19A110">
 
     <ImageView
@@ -11,15 +11,18 @@
         android:scaleType="centerCrop"
         android:src="@drawable/jakarta"/>
     <!-- Your profile picture or icon -->
-    <ImageView
-        android:id="@+id/imageViewProfile"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/muka" />
 
     <!-- User name or other information -->
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/mk" />
+
     <TextView
         android:id="@+id/textViewUsername"
         android:layout_width="wrap_content"
@@ -30,4 +33,26 @@
         android:layout_below="@id/imageViewProfile"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUsername"
+        android:layout_marginVertical="15dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="> Pengaturaan Akun"
+            android:id="@+id/akun"
+            android:layout_marginHorizontal="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:layout_marginHorizontal="10dp"/>
+
+
+    </LinearLayout>
 </RelativeLayout>
