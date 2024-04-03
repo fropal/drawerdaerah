@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.makanankhas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp">
+
+        <!-- Informasi Makanan Khas Jakarta 1 - Nasi Goreng -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <!-- Gambar Makanan -->
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/nasigoreng" />
+
+            <!-- Judul Makanan -->
+            <TextView
+                android:id="@+id/judul1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/img1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginVertical="10dp"
+                android:text="Nasi Goreng"
+                android:textSize="25dp" />
+
+            <!-- Deskripsi Makanan -->
+            <TextView
+                android:id="@+id/deskripsi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/judul1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Nasi goreng adalah salah satu makanan khas Jakarta yang terkenal dan lezat." />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Informasi Makanan Khas Jakarta 2 - Soto Betawi -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp">>
+
+            <!-- Gambar Makanan -->
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/nasigoreng" />
+
+            <!-- Judul Makanan -->
+            <TextView
+                android:id="@+id/judul2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/img2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginVertical="10dp"
+                android:text="Soto Betawi"
+                android:textSize="25dp" />
+
+            <!-- Deskripsi Makanan -->
+            <TextView
+                android:id="@+id/deskripsi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/judul2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Soto Betawi adalah makanan khas Jakarta berupa sup daging sapi yang gurih dan kaya rempah." />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Informasi Makanan Khas Jakarta 3 - Kerak Telor -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp">>
+
+            <!-- Gambar Makanan -->
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/nasigoreng" />
+
+            <!-- Judul Makanan -->
+            <TextView
+                android:id="@+id/judul3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/img3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginVertical="10dp"
+                android:text="Kerak Telor"
+                android:textSize="25dp" />
+
+            <!-- Deskripsi Makanan -->
+            <TextView
+                android:id="@+id/deskripsi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/judul3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Kerak Telor adalah makanan khas Jakarta yang terbuat dari telur, beras ketan, dan rempah-rempah." />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Lanjutan Informasi Makanan Khas Jakarta 4 - Ketoprak -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp">>
+
+            <!-- Gambar Makanan -->
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/nasigoreng" />
+
+            <!-- Judul Makanan -->
+            <TextView
+                android:id="@+id/judul4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/img4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginVertical="10dp"
+                android:text="Ketoprak"
+                android:textSize="25dp" />
+
+            <!-- Deskripsi Makanan -->
+            <TextView
+                android:id="@+id/deskripsi4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/judul4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Ketoprak adalah makanan khas Jakarta yang terdiri dari lontong, tahu, bihun, sayur, dan kuah kacang kental." />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Informasi Makanan Khas Jakarta 5 - Gado-Gado -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp">>
+
+            <!-- Gambar Makanan -->
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/nasigoreng" />
+
+            <!-- Judul Makanan -->
+            <TextView
+                android:id="@+id/judul5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/img5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginVertical="10dp"
+                android:text="Gado-Gado"
+                android:textSize="25dp" />
+
+            <!-- Deskripsi Makanan -->
+            <TextView
+                android:id="@+id/deskripsi5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/judul5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Gado-Gado adalah makanan khas Jakarta yang terdiri dari sayuran rebus, tahu, tempe, telur, dan disajikan dengan bumbu kacang." />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</ScrollView>
